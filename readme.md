@@ -1,21 +1,23 @@
-## Laravel PHP Framework
+## 1 Page Widget Site
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework) [![License](https://poser.pugx.org/laravel/framework/license.png)](https://packagist.org/packages/laravel/framework)
+This is a simple 1 page Laravel application that allows the user to order Widgets.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+- The quantity of widgets
+- The color the widgets
+- The date by which the widgets are needed
+- The type of widget the customer wants
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Validation
 
-## Official Documentation
+The Widget Order Form has some constraints and the validation will fail if these requirements are not met:
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+- Quantity of widget must be an integer
+- Color of widget must be alphabetical
+- Date by which the widget is needed must be a full week after todays current date
+- Type of widget must also be alphabetical
 
-### Contributing To Laravel
+### User Feedback
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+The User will be notified if their order is successful or if there are problems with their form values
 
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
