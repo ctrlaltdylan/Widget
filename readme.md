@@ -23,10 +23,10 @@ The User will be notified if their order is successful or if there are problems 
 
 ### Installation
 
-1) Create a localhost MySQL database 'widget' with a user 'widget' with the password 'widget'
-2) Install Composer
-3) Run 'sudo composer update' in the Widget directory
-4) Run 'sudo chmod -R 777 app/storage' in the Widget directory
-5) Run 'sudo php artistan migrate' in the Widget directory to run the database migrations
+1. Create a localhost MySQL database 'widget' with a user 'widget' with the password 'widget'
+2. Install Composer
+3. Run `sudo composer update` in the Widget directory
+4. Run `sudo chmod -R 777 app/storage` in the Widget directory
+5. Run `sudo php artistan migrate` in the Widget directory to run the database migrations
 
 
